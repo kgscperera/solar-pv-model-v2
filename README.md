@@ -84,7 +84,7 @@ ___
 
 ### **4.2. Correlation Matrix**
 
-![This is Correlation Matrix](#)
+![This is Correlation Matrix](./data/correlation_matrix.png)
 
 ### **4.3. Model comparison**
 
@@ -133,4 +133,3 @@ ___
 
 Code in this repository is licensed under the MIT License. Data is subject to the licenses of its original providers.
 ___
-
