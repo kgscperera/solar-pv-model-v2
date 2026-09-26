@@ -84,7 +84,7 @@ ___
 
 ### **4.2. Correlation Matrix**
 
-![This is Correlation Matrix](./data/correlation_matrix.png)
+![This is Correlation Matrix](./extra/correlation_matrix.png)
 
 ### **4.3. Model comparison**
 
