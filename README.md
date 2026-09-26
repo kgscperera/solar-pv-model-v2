@@ -1,10 +1,11 @@
-## **Multiple Linear Regression Analysis on Solar PV Potential in Sri Lanka- **
+# **Background**
 
 Multiple linear regression (MLR) model explaining photovoltaic power output potential (PVOUT) across Sri Lanka, using climatology data from the NASA POWER API and solar resource data from Global Solar Atlas.
 
-> 
+This project began as part of my undergraduate research, where my focus was purely on the 'statistics'. So the code itself was a set of separate scripts split across Excel and Google Colab. Here I combined that complicated workflow into a single pipeline and turned academic/research code into something reusable and maintainable. I saw this as an opportunity to put the Python skills I've picked up since then to practice and I genuinely enjoy optimizing things as well.
 
 ___
+
 
 ### **1. Repository Structure**
 
@@ -37,6 +38,8 @@ ___
 ___
 
 ### **3. How to run the script locally:**
+
+#### Viewing the notebooks only requires Jupyter Lab/Notebook installed in your computer. To run the code yourself, follow the instructions below.
 
 #### **Prerequisites:**
 
@@ -124,7 +127,7 @@ All four predictors significant at p < 0.001, max VIF = 2.01 (no meaningful mult
 
 - Cross-sectional analysis on yearly-average data - no seasonality captured (e.g., monsoon timing, day/night effects folded into daily/monthly averages).
 - n = 125 locations, 5 per district, results may not generalize below the district level.
-- Rainfall and wind speed coefficients are statistically significant but not fully explained by direct physical mechanisms (see interpretation above) - flagged as candidates for follow-up analysis rather than settled causal claims.
+- Rainfall and wind speed coefficients are statistically significant but not fully explained by direct physical mechanisms (see interpretation above).
 ___
 ### **5. License**
 
